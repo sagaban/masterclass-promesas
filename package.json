@@ -1,0 +1,20 @@
+{
+  "name": "marterclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callbacks": "nodemon callbacks.js",
+    "promises": "nodemon promises.js",
+    "asaw": "nodemon async-await.js",
+    "asaw2": "nodemon async-await2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "native-request": "^1.1.0",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
